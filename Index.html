@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Great Vibes' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Nunito Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet'>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="nav-list">
+            <a href="#"><b>PATEL</b>gaurav</a>
+            <a href="#">Work</a>
+            <a href="#">Connect</a>
+        </div>
+
+            <div class="social">
+                <ul>
+                <li><video autoplay loop src="./Images/Gmail.mp4" height="30px" width="30px"></video></li>
+                <li><video autoplay loop src="./Images/Insta.mp4" height="30px" width="30px"></video></li>
+                <li><video autoplay loop src="./Images/LinkedIn.mp4" height="30px" width="30px"></video></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="mainSection">
+    <main>
+        <div class="name">
+            
+            <h3>Bringing</h3> <h2>Imaginations</h2> <h3>Online</h3>
+            <br>
+            <div class="btnSection">
+            <button>Let's Connect</button>
+            <video class="vid" src="./Images/whatsapp.mp4" height="50px" width="50px"></video>
+        </div>
+        </div>
+        <div class="mastImg">
+            <video autoplay loop src="./Images/mastImg.mp4" ></video>
+        </div>
+    </main>
+    <div class="advertise">
+        <b>Design's</b> I <b>Design</b>
+    </div>
+
+    <div class="advertiseBtn">
+    <div class="portfolio">
+        <center>
+        <video class="portClip" src="./Images/Portfolio.mp4"></video></center>
+        <p>Portfolio</p>
+    </div>
+
+    <div class="eCom">
+        <center>
+        <video class="eComClip" src="./Images/eCom.mp4"></video></center>
+        <p>E-Commerce</p>
+    </div>
+
+    <div class="digi">
+        <center><video class="digiClip" src="./Images/Digi.mp4"></video></center>
+        <p>Digital Solution</p>
+    </div>
+
+    <div class="blog">
+        <center><video class="blogClip" src="./Images/blog.mp4"></video></center>
+        <p>Blog</p>
+    </div>
+
+    <div class="eCourses">
+        <center><video class="courseClip" src="./Images/Courses.mp4"></video></center>
+        <p>E-Courses</p>
+    </div>
+</div>
+
+<div class="exp">
+    <b>Exp</b>erience
+</div>
+
+<div class="expContent">
+    <div class="heading">
+        TheOneLiner
+        <p>TheOneLiner is All-in-One hollistic Well-being hub </p>
+    </div>
+    <div class="webProto1">
+        <iframe src="https://theoneliner.in/" height="300px" width="100%" frameborder="0"></iframe>
+    </div>
+</div>
+
+<div class="expContent1">
+    <div class="heading">
+        ThinkBlueBrain
+    </div>
+
+    <div class="webProto2">
+       <img src="" alt="">
+    </div>
+</div>
+</div>
+
+<footer>
+    <div class="logo">
+        <video src="./Images/mastImg.mp4" alt="Gaurav Patel" Height="200px" width="200px">
+    </div>
+    <div class="experience">
+        <h3>Experience</h3>
+        <ul>
+            <li>TheOneLiner</li>
+            <li>ThinkBlueBrain</li>
+        </ul>
+    </div>
+    <div class="connectForm">
+        <form action="Submit">
+            <label for="eMail">E-mail</label><br>
+            <input type="text" id="eMail" placeholder="username@gmail.com"><br><br>
+            <label for="msg">Message</label><br>
+            <input type="text" id="msg" placeholder="Write reason of connecting"><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</footer>
+<script>
+    let clip = document.querySelector(".vid")
+    
+    clip.addEventListener("mouseover", function (e) {
+            clip.play();
+            clip.style.cursor="pointer"
+    })
+    let clip1 = document.querySelector(".portClip")
+    clip1.addEventListener("mouseover", function (e) {
+            clip1.play();
+            clip1.style.cursor="pointer"
+    })
+    let clip5 = document.querySelector(".eComClip")
+    clip5.addEventListener("mouseover", function (e) {
+            clip5.play();
+            clip5.style.cursor="pointer"
+    })
+    let clip2 = document.querySelector(".digiClip")
+    clip2.addEventListener("mouseover", function (e) {
+            clip2.play();
+            clip2.style.cursor="pointer"
+    })
+    let clip3 = document.querySelector(".blogClip")
+    clip3.addEventListener("mouseover", function (e) {
+            clip3.play();
+            clip3.style.cursor="pointer"
+    })
+    let clip4 = document.querySelector(".courseClip")
+    clip4.addEventListener("mouseover", function (e) {
+            clip4.play();
+            clip4.style.cursor="pointer"
+    })
+</script>
+</body>
+</html>
