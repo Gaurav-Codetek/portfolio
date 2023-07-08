@@ -270,38 +270,54 @@ main{
 .expContent{
     display: flex;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 100px ;
 }
 
-.heading{
-    width: 50%;
-    font-size: 48px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 900;
+.company1{
+    border: 0px solid #000;
+    padding: 20px;
+    width: 45%;
+    border-radius: 13px;
+    box-shadow: 0px 6px 10px 2px #cfcfcf;
 }
 
-.heading p{
-    font-size: 24px;
+.company1 h3{
+    font-size: 38px;
     font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin-bottom: 10px;
+}
+
+.company1 p{
+    font-size: 16px;
+    line-height: 150%;
+    color: #8e8c8c;
+}
+
+.space{
+    width: 5%;
+}
+
+.company2{
+    width: 45%;
+    border: 0px solid #000;
+    padding: 20px;
+    border-radius: 13px;
+    box-shadow: 0px 6px 10px 2px #cfcfcf;
+}
+
+.company2 h3{
+    font-size: 38px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+    font-weight: 400;
+    margin-bottom: 10px;
 }
 
-.webProto1{
-    width: 50%;
+.company2 p{
+    font-size:16px;
+    line-height: 150%;
+    color: #8e8c8c;
 }
-
-.expContent1{
-    display: flex;
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-.webProto2{
-    width: 50%;
-}
-
-
 
 /*----------Footer--------------*/
 
