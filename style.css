@@ -691,3 +691,117 @@ footer{
         padding: 5px;
     }
 }
+
+@media only screen and (max-width: 430px){
+    .container{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .social{
+        display: none;
+    }
+
+    .nav-list{
+        width: 100%;
+        font-size: 14px;
+    }
+
+    main{
+        display: block;
+    }
+
+    .mainSection{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .name{
+        width: 100%;
+        padding-left: 50px;
+    }
+
+    .mastImg{
+        width: 100%;
+        padding-left: 35px;
+    }
+
+    .advertise b{
+        font-size: 40px;
+    }
+
+    .advertise{
+        width: 100%;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .advertiseBtn{
+        display: block;
+    }
+
+    .advertiseBtn video{
+        height: 80px;
+        width: 80px;
+    }
+
+    .portfolio{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .eCom{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .digi{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .eCourses{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .blog{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .advertiseBtn p{
+        font-size: 16px;
+    }
+
+    .expContent{
+        display: block;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .company1{
+        width: 100%;
+    }
+
+    .space{
+        width: 100%;
+        padding: 30px;
+    }
+
+    .company2{
+        width: 100%;
+    }
+
+    .skillName{
+        padding-left: 30px;
+        width: 90%;
+    }
+
+    .skillName ul li{
+        padding-bottom: 40px;
+    }
+
+    footer{
+        display: none;
+    }
+}
