@@ -29,3 +29,15 @@ clip4.addEventListener("mouseover", function (e) {
         clip4.play();
         clip4.style.cursor="pointer"
 })
+
+let hamburger = document.querySelector(".hamburger")
+let nav = document.querySelector(".mobileNav")
+hamburger.addEventListener("click", ()=>{
+    if(nav.style.display === "block"){
+        nav.style.display = "none"
+    }
+
+    else{
+        nav.style.display = "block"
+    }
+})
