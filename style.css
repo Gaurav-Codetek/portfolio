@@ -746,6 +746,9 @@ footer{
 
     nav{
         padding: 0px;
+        position: fixed;
+        width: 100%;
+        top: 0;
     }
 
     .social{
@@ -767,7 +770,7 @@ footer{
     }
     .name{
         width: 84.378%;
-        margin-top: 30px;
+        margin-top: 40px;
         margin-left: 30px;
         font-size: 40px;
     }
@@ -868,7 +871,7 @@ footer{
     }
 
     footer{
-        display: ;
+        display: block;
     }
 
     .nav-menu{
@@ -888,15 +891,26 @@ footer{
 
     .mobileNav{
         display: none;
-        background-color: #000;
+        width: 100%;
+        position: fixed;
+        background-color: #FFF;
+        box-shadow: 0px 7px 10px 0px #cfcfcf;
     }
 
     .mobileNav ul li{
         list-style: none;
-        color: #FFF;
         text-align: center;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         padding: 10px;
+    }
+
+    .mobileNav ul li a{
+        text-decoration: none;
+        color: #000;
+    }
+
+    .mobileNav ul li a:hover{
+        background-color: #cfcfcf;
     }
 
     .line1{
@@ -931,17 +945,18 @@ footer{
 
     .logo{
         margin-left: 0px;
-        width: 38%;
+        width: 30%;
         color: #FFFFFF;
     }
 
     .logo h2{
-        font-size:18px;
+        font-size:14px;
     }
 
     .copyright{
-        font-size: 12px;
-        width: 68%;
+        padding-left: 0px ;
+        font-size: 10px;
+        width: 70%;
     }
 
     .skills{
