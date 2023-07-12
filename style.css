@@ -773,6 +773,12 @@ footer{
         position: fixed;
         width: 100%;
         top: 0;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .nav-list a{
+        font-size: 18px;
     }
 
     .social{
