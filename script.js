@@ -34,10 +34,11 @@ let hamburger = document.querySelector(".hamburger")
 let nav = document.querySelector(".mobileNav")
 hamburger.addEventListener("click", ()=>{
     if(nav.style.display === "block"){
-        nav.style.display = "none"
+        nav.style.display = "none";
     }
 
     else{
-        nav.style.display = "block"
+        nav.style.display = "block";
+        
     }
 })

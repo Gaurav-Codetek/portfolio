@@ -11,10 +11,10 @@
 
 nav {
     display: flex;
-    background-color: #FFF;
     box-shadow: 0px 0px 8px 2px #cfcfcf;
     padding-left: 80px;
     padding-right: 80px;
+    background: url(./Images/background.png);
 }
 
 .mobileNav{
@@ -27,6 +27,11 @@ nav {
     font-size: 20px;
     font-weight: 400;
     width: 50%;
+}
+
+.active{
+    color: #208B81;
+    border-bottom: 1px solid #208B81;
 }
 
 nav b{
@@ -81,6 +86,10 @@ main{
     padding-top: 180px;
     font-size: 50px;
     font-family:'Inter' ;
+}
+
+.name img{
+    display: none;
 }
 
 .gaurav{
@@ -287,10 +296,13 @@ main{
 
 .company1{
     border: 0px solid #000;
-    padding: 20px;
     width: 45%;
     border-radius: 13px;
     box-shadow: 0px 6px 10px 2px #cfcfcf;
+}
+
+.comp1{
+    padding: 20px;
 }
 
 .company1 h3{
@@ -303,7 +315,11 @@ main{
 .company1 p{
     font-size: 16px;
     line-height: 150%;
-    color: #8e8c8c;
+    color: hsl(0, 1%, 55%);
+}
+
+.company1 img{
+    display: none;
 }
 
 .space{
@@ -313,9 +329,12 @@ main{
 .company2{
     width: 45%;
     border: 0px solid #000;
-    padding: 20px;
     border-radius: 13px;
     box-shadow: 0px 6px 10px 2px #cfcfcf;
+}
+
+.comp2{
+    padding: 20px;
 }
 
 .company2 h3{
@@ -329,6 +348,10 @@ main{
     font-size:16px;
     line-height: 150%;
     color: #8e8c8c;
+}
+
+.company2 img{
+    display: none;
 }
 
 /*-----------------Skill_SET--------------------*/
@@ -745,6 +768,7 @@ footer{
     }
 
     nav{
+        z-index: 1;
         padding: 0px;
         position: fixed;
         width: 100%;
@@ -773,6 +797,12 @@ footer{
         margin-top: 40px;
         margin-left: 30px;
         font-size: 40px;
+    }
+
+    .name img{
+        margin-top: -50px;
+        position: absolute;
+        z-index: -1;
     }
 
     .btnSection button{
@@ -847,8 +877,15 @@ footer{
     }
 
     .company1{
-        width: 80%;
-        margin-left: 5px;
+        width: 100%;
+    }
+
+    .company1 img{
+        display: block;
+        position: absolute;
+        z-index: -1;
+        height: 220px;
+        width: 250px;
     }
 
     .space{
@@ -857,8 +894,15 @@ footer{
     }
 
     .company2{
-        width: 80%;
-        margin-left: 5px;
+        width: 100%;
+    }
+
+    .company2 img{
+        display: block;
+        position: absolute;
+        z-index: -1;
+        height: 235px;
+        width: 250px;
     }
 
     .skillName{
@@ -893,6 +937,7 @@ footer{
         display: none;
         width: 100%;
         position: fixed;
+        z-index: 1;
         background-color: #FFF;
         box-shadow: 0px 7px 10px 0px #cfcfcf;
     }
