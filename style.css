@@ -794,7 +794,7 @@ footer{
     }
     .name{
         width: 84.378%;
-        margin-top: 40px;
+        margin-top: 80px;
         margin-left: 30px;
         font-size: 60px;
     }
@@ -810,7 +810,7 @@ footer{
     }
 
     .btnSection button{
-        padding: 10px;
+        padding: 20px;
     }
 
     .btnSection video{
