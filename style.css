@@ -947,9 +947,15 @@ footer{
         display: none;
         width: 100%;
         position: fixed;
+        top: 47px;
         z-index: 1;
         background-color: #FFF;
         box-shadow: 0px 7px 10px 0px #cfcfcf;
+    }
+
+    .mobileNav ul{
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     .mobileNav ul li{
@@ -957,6 +963,7 @@ footer{
         text-align: center;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         padding: 10px;
+        font-size: 18px;
     }
 
     .mobileNav ul li a{
