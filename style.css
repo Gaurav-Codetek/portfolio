@@ -796,7 +796,11 @@ footer{
         width: 84.378%;
         margin-top: 40px;
         margin-left: 30px;
-        font-size: 40px;
+        font-size: 60px;
+    }
+
+    .gaurav{
+        font-size: 80px;
     }
 
     .name img{
