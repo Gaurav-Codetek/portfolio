@@ -9,6 +9,69 @@
     display: none;
 }
 
+.bgStyle{
+    background-color: #8bfff397;
+    z-index: -1;
+    height: 900px;
+    margin-bottom: 300px;
+    border-radius: 1900px 0px 1000px 300px;
+    width: 70%;
+    margin-left: 30%;
+    position: relative;
+}
+
+.mastHead{
+    position: absolute;
+    top: 150px;
+    z-index: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 30px;
+}
+
+.mastHead h1{
+    margin-left: 100px;
+    font-size: 100px;
+    word-spacing: normal;
+    color: #27a69a;
+    filter: drop-shadow(0 0 0 9px #000);
+    font-weight: 500;
+}
+
+.mastHead p{
+    font-size: 32px;
+    font-weight: 200;
+    margin-left: 105px;
+}
+
+.mastHead b{
+    font-size: 38px;
+    color: #208B81;
+}
+
+.connectImg img{
+    position: absolute;
+    top: 100px;
+    right: 105px;
+    height: 400px;
+    width: 600px;
+    border-radius: 39px;
+}
+
+.connectImg img{
+    animation-name: slidein;
+    animation-duration: 0.7s;
+}
+
+@keyframes slidein{
+    from{
+        right: -610px;
+    }
+
+    to{
+        right:105px;
+    }
+}
+
 nav {
     display: flex;
     box-shadow: 0px 0px 8px 2px #cfcfcf;
@@ -102,6 +165,12 @@ main{
     display: flex
 
 }
+
+.btnSection a{
+    text-decoration: none;
+    color: #FFF;
+}
+
 .btnSection button{
     font-family:'Inter';
     background-color: #27a69a;
@@ -424,6 +493,7 @@ footer{
     color: #000;
     margin-left: 50px;
     width: 11.6%;
+    padding-right: 5px;
     border-right: 2px solid #cfcfcf;
 }
 
@@ -433,13 +503,62 @@ footer{
 }
 
 .copyright{
-    width: 27%;
+    width: 70%;
     font-size: 16px;
     padding-left: 5px;
     padding-top: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #8e8c8c;
 }
+
+/*----------------------------------------------------------Connect Form----------------*/
+
+
+.connectForm{
+    position: absolute;
+    width: 50%;
+    top: 600px;
+    left: 25%;
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 13px;
+    box-shadow: 0px 6px 10px 2px #dedede;
+}
+
+form{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+label{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+input[type=text], textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid #208B81;
+    outline: none;
+    color: #27a69a;
+}
+
+input[type=submit]{
+    font-size: 16px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: #27a69a;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+input[type=submit]:hover{
+    cursor: pointer;
+    background-color: #208B81;
+}
+
 
 
 /*---------------------------------------------------------Media Query------------------*/
@@ -1023,6 +1142,61 @@ footer{
 
     .skills{
         margin-bottom: -20px;
+    }
+    /*------------------------------------------------------------Connect Page-----------*/
+
+    .bgStyle{
+        display: none;
+    }
+
+    .mastHead{
+        position: static;
+        margin-top: 100px;
+        margin-left: 50px;
+        margin-bottom: 40px;
+    }
+
+    .mastHead h1{
+        margin-left: 0px;
+        font-size: 70px;
+    }
+
+    .mastHead p{
+        margin-left: 5px;
+        font-size: 25px;
+    }
+
+    .mastHead b{
+        font-size: 30px;
+    }
+
+    .connectImg img{
+        position: static;
+        height: 300px;
+        width: 300px;
+        margin-bottom: 60px;
+    }
+
+    .connectForm{
+        position: static;
+        width: 100%;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+        padding-bottom: 30px;
+    }
+
+    form{
+        padding-left: 40px;
+    }
+    label{
+        font-size: 20px;
+    }
+
+    input[type=text], textarea{
+        width: 80%;
+        padding: 5px;
     }
 }
 

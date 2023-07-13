@@ -53,13 +53,50 @@
         </ul>
       </div>
     </div>
+    
+    <div class="bgStyle"></div>
 
-    <div class="circle">
-
+    <div class="mastHead">
+    <h1>Hello!</h1>
+    <p>How do you <b>Do!</b></p>
     </div>
+
+    <div class="connectImg">
+     <center><img src="./Images/connectImg.jpg" alt="Let's Connect"></center>
+    </div>
+
+    <!-------------------------------------------------------------Form-->
+
+    <div class="connectForm">
+
+      <form action="#">
+        <label for="name">Name :</label>
+        <input type="text" id="name" placeholder="Name">
+        <br><br>
+        <label for="gmail">E-Mail :</label>
+        <input type="text" id="gmail" placeholder="Enter your Username">
+        <br><br>
+        <label for="query">Feel free to write:</label>
+        <textarea name="query" id="query" placeholder="Enter your Concern here" cols="30" rows="5"></textarea>
+        <br><br>
+        <input type="submit" id="submit">
+      </form>
+    </div>
+
+    <footer>
+      <div class="logo">
+          <h2>PatelGaurav</h2>
+      </div>
+  
+      <div class="copyright">
+          <p>Copyright &#169; patelgaurav.in 2023</p>
+      </div>
+  </footer>
+
     <script>
       let hamburger = document.querySelector(".hamburger");
       let nav = document.querySelector(".mobileNav");
+      let sub = document.querySelector("#submit");
       hamburger.addEventListener("click", () => {
         if (nav.style.display === "block") {
           nav.style.display = "none";
@@ -68,6 +105,13 @@
           nav.style.top = "40px";
         }
       });
+
+      sub.addEventListener("click", () =>{
+        alert("Your response recorded successfully");
+      })
+
+
+      
     </script>
   </body>
 </html>
