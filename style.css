@@ -20,6 +20,13 @@
     position: relative;
 }
 
+.background{
+    background: url(./Images/backgroundHome.png);
+    background-size: cover;
+
+    z-index: -1;
+}
+
 .mastHead{
     position: absolute;
     top: 150px;
@@ -78,6 +85,7 @@ nav {
     padding-left: 80px;
     padding-right: 80px;
     background: url(./Images/background.png);
+    z-index: 4;
 }
 
 .mobileNav{
