@@ -724,7 +724,7 @@ hr{
     margin-left: 80px;
     background: linear-gradient(to right,#5DE0E6,#004AAD);
     width: 100%;
-    margin-left: 200px;
+    margin-left: 100px;
     margin-right: 100px;
     padding: 30px;
     border-radius: 13px;
@@ -1239,6 +1239,17 @@ label{
 
     .connectForm{
         width: 50%;
+    }
+
+    .paperBack{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .connectForm{
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 80%;
     }
 }
 
