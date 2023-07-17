@@ -1,145 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./style.css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Great Vibes' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Nunito Sans' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet'>
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Great Vibes" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Nunito Sans" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet" />
+  <title>Gaurav</title>
 </head>
+
 <body>
-    <div class="container">
-        <nav>
-            <div class="nav-list">
-            <a href="#"><b>PATEL</b>gaurav</a>
-        </div>
-
-            <div class="nav-menu">
-                <a href="#" class="active">Home</a>
-                <a href="./connect.html">Connect</a>
-                <a href="./us.html">About Us</a>
-            </div>
-
-            <div class="hamburger">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
-        </nav>
-        <div class="mobileNav">
-            <ul>
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="./connect.html">Connect</a></li>
-                <li><a href="./us.html">About Us</a></li>
-            </ul>
-        </div>
+  <div class="bg">
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">Home</a>
+      <a href="#section2">Project</a>
+      <a href="#section3">About Me</a>
     </div>
-    <div class="mainSection">
-    <main>
-        <div class="name">
-            <img src="./Images/backgfround.png" alt="#" height="300px" width="290px">
-            <p class="gaurav">Gaurav Patel</p><p>Welcomes You!</p>
-            <br>
-            <div class="btnSection">
-            <button><a href="./connect.html">Let's Connect</a></button>
-            <video class="vid" src="./Images/whatsapp.mp4" height="50px" width="50px"></video>
-        </div>
-        </div>
-        <div class="mastImg">
-            <center><video autoplay loop src="./Images/mastImg.mp4" ></video></center>
-        </div>
-    </main>
-    <div class="advertise">
-        <b>Design's</b> I <b>Design</b>
-    </div>
+    <div class="mobileNav">
+    <div class="ham" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</div>
+  </div>
+    <div class="navbar">
+      <div class="siteName">
+        <p><b>Patel</b>gaurav</p>
+      </div>
+      <nav>
+        <a class="active" href="#home">Home</a>
+        <a href="#section2">Project</a>
+        <a href="#section3">About Us</a>
+      </nav>
 
-    <div class="advertiseBtn">
-    <div class="portfolio">
+      <div class="buttons">
+        <div class="signIn">
+          <a href="#section4"><button>Connect</button></a>
+        </div>
+        <div class="docs">
+          <button>Docs</button>
+        </div>
+      </div>
+    </div>
+    <div class="mast">
+      <div class="mastName">
+        <p>Bringing Imaginations Online</p>
+        <h1>Gaurav Patel</h1>
+        <h3>Welcomes You!</h3>
+        <a href="#section1"><button>Take a Look</button></a>
+      </div>
+      <div class="mastImg">
+        <img src="./Images/mastImg.png" alt="mastImg" />
+      </div>
+    </div>
+  </div>
+  <hr id="section1" />
+  <main>
+    <div class="technologies">
+      <h1>Skills</h1>
+      <div class="lang">
         <center>
-        <video class="portClip" src="./Images/Portfolio.mp4"></video></center>
-        <p>Portfolio</p>
+          <!---------------------------HTML--------------------->
+          <div class="html">
+            <img src="./Images/html1.png" alt="html" />
+            <div class="innerHtml">
+              <b>HTML</b>
+              <div class="progressHtml"></div>
+              <b>Intermediate</b>
+            </div>
+          </div>
+          <!---------------------------CSS--------------------->
+          <div class="css">
+            <img src="./Images/CSS.webp" alt="CSS" />
+            <div class="innerCss">
+              <b>CSS</b>
+              <div class="progressCss"></div>
+              <b>Intermediate</b>
+            </div>
+          </div>
+          <!---------------------------JS--------------------->
+          <div class="js">
+            <img src="./Images/JS.png" alt="JS" />
+            <div class="innerJs">
+              <b>JavaScript</b>
+              <div class="progressJs"></div>
+              <b>Beginner</b>
+            </div>
+          </div>
+          <!----------------------------React JS------------------>
+          <div class="c">
+            <img src="./Images/C.png" alt="C" />
+            <div class="innerC">
+              <b>C</b>
+              <div class="progressC"></div>
+              <b>Intermediate</b>
+            </div>
+          </div>
+        </center>
+      </div>
     </div>
+    <hr id="section2" />
+    <div class="project">
+      <h1>Project</h1>
 
-    <div class="eCom">
-        <center>
-        <video class="eComClip" src="./Images/eCom.mp4"></video></center>
-        <p>E-Commerce</p>
+      <div class="project1">
+        <div class="project1Img">
+          <center><img src="./Images/smartspot.jpg" alt="SmartSpot" /></center>
+        </div>
+        <div class="project1Content">
+          <h5>SUMMER TRAINING</h5>
+          <h1><b>SMARTSPOT</b> Intelligent Parking Space Detection System</h1>
+          <p>
+            In this innovative project, we introduce an intelligent solution
+            that combines advanced technology with convenience for drivers.
+            The system's key feature is the display of real-time parking space
+            availability on LCD screens strategically placed at the parking
+            area. This groundbreaking approach aims to transform the parking
+            experience by providing drivers with instant information on
+            available spaces, simplifying the search for a parking spot, and
+            reducing unnecessary congestion within parking lots.
+          </p>
+          <button class="project1Docs">Get Docs</button>
+        </div>
+      </div>
+      <div class="project2">
+        <div class="project1Content project2Content">
+          <h5>UNDER DEVELOPMENT</h5>
+          <h1><b>POS</b> Point Of Sale for Hotel Booking</h1>
+          <p>
+            In this innovative project, we introduce an intelligent solution
+            that combines advanced technology with convenience for drivers.
+            The system's key feature is the display of real-time parking space
+            availability on LCD screens strategically placed at the parking
+            area. This groundbreaking approach aims to transform the parking
+            experience by providing drivers with instant information on
+            available spaces, simplifying the search for a parking spot, and
+            reducing unnecessary congestion within parking lots.
+          </p>
+          <button class="project2Docs">Get Docs</button>
+        </div>
+        <div class="project2Img">
+          <center><img src="./Images/hotel.avif" alt="Hotel Booking POS" /></center>
+        </div>
+      </div>
     </div>
+    <hr>
+    <div class="experience">
+      <h1>Experience</h1>
+      <div class="expContent">
 
-    <div class="digi">
-        <center><video class="digiClip" src="./Images/Digi.mp4"></video></center>
-        <p>Digital Solution</p>
-    </div>
+        <div class="oneliner">
+          <div class="content">
+            <h1>TheOneLiner <b>WordPress Developer</b> <button>Internship</button></h1>
+            <p>TheOneLiner is all in one Holistic Wellness PlatformAs the Wordpress manager at this company, it was my
+              responsibility to maintain and construct WordPress pages using pre-made themes as well as to add unique
+              designs using HTML and CSS.</p>
+            <div class="innerCon1">
+              <b>Duration</b>
+              <p>April 2023 - June 2023</p>
+              <b>Skills Required</b>
+              <p>Wordpress, Html, CSS</p>
+              <b>Learnings</b>
+              <p>Colour pallete, Figma, Designing Elements</p>
+            </div>
+          </div>
+        </div>
 
-    <div class="blog">
-        <center><video class="blogClip" src="./Images/blog.mp4"></video></center>
-        <p>Blog</p>
-    </div>
+        <div class="tbb">
+          <div class="content">
+            <h1>ThinkBluebrain <b>Fron-end Dev</b> <button>Full-Time</button></h1>
+            <p>ThinkBlueBrain was an event organizing platform that conducted numerous online events for college
+              students.
+              I worked as aweb designer for the platform and also led the event management team. This project marked
+              my
+              second venture in the field.</p>
+            <div class="innerCon1">
+              <b>Duration</b>
+              <p>Oct 2020 - July 2022</p>
+              <b>Skills Required</b>
+              <p>Html, CSS</p>
+              <b>Learnings</b>
+              <p>Usage of CSS selectors, Proficiency in Media Query</p>
+            </div>
+          </div>
+        </div>
 
-    <div class="eCourses">
-        <center><video class="courseClip" src="./Images/Courses.mp4"></video></center>
-        <p>E-Courses</p>
-    </div>
-</div>
+      </div>
+      <hr id="section3" />
+      <div class="about">
+        <h1>Who <b>Me</b> ?</h1>
+      </div>
+      <div class="paperBack">
+        <div class="profile">
+          <img src="./Images/PP.jpg" alt="Gaurav Patel">
 
-<div class="exp">
-    <b>Exp</b>erience
-</div>
-<div class="expContent">
-<div class="company1">
-    <img src="./Images/company1.png" alt="">
-    <div class="comp1">
-    <h3>TheOneLiner</h3>
-    <p>TheOneLiner is all in one Holistic
-        Wellness PlatformAs the Wordpress manager at this company, it was my responsibility to maintain and construct WordPress pages using pre-made themes as well as to add unique designs using HTML and CSS.</p>
-</div>
-</div>
-<div class="space"></div>
-<div class="company2">
-    <img src="./Images/company2.png" alt="">
-    <div class="comp2">
-    <h3>ThinkBlueBrain</h3>
-    <p>ThinkBlueBrain was an event organizing platform that conducted numerous online events for college students. I worked as aweb designer for the platform and also led the event management team. This project marked my second venture in the field.</p>
-</div>
-</div>
-</div>
-<h3 class="skillHeading">Skills</h3>
-<div class="skills">
-    
-    <div class="skillName">
-        <ul>
-            <li class="Html">Html <hr></li>
-            <li class="CSS">CSS <hr></li>
-            <li class="JS">JavaScript <hr></li>
-            <li class="ReactJs">React.js <hr></li>
-        </ul>
-    </div>
-    <div class="skillLogo">
-        <div class="row1">
-        <img class="html5" src="./Images/html.png" alt="HTML5">
-        <img src="./Images/CSS.webp" alt="CSS" class="css">
-    </div>
-    <div class="row2">
-        <img src="./Images/JS.png" alt="JavaScript" class="js">
-        <img src="./Images/reactjs.png" alt="React.js" class="reactjs">
-    </div>
-    </div>
-</div>
-</div>
-<footer>
-    <div class="logo">
-        <h2>PatelGaurav</h2>
-    </div>
-
-    <div class="copyright">
-        <p>Copyright &#169; patelgaurav.in 2023</p>
-    </div>
-</footer>
-<script src="./script.js">
-</script>
+          <h3>Education</h3>
+          <li><b>High School | Intermediate</b><br>Marwari Goverment School</li>
+          <li><b>Graduation: (BE/B.Tech 2022 - present)</b><br>UIET Panjab University, Chadndigarh</li>
+        </div>
+        <div class="aboutSkills">
+          <h1>Gaurav Patel</h1>
+          <button>Front-End Developer</button>
+          <p>I have a strong personality and excellent communication abilities. I am both punctual and responsible at
+            work. I'm disciplined, determined, and persistent, which are all qualities that a good developer should
+            have.
+            I have a decent understanding of the designs employed in today's sector of interest and am eager to improve
+            my talents.</p>
+        </div>
+      </div>
+      <hr id="section4">
+      <div class="connect">
+        <h1>Wanna <b>Connect</b> ?</h1>
+        <div class="connectpg">
+          <div class="connectImg">
+            <center><img src="./Images/Connect.svg" alt="Let's Connect"></center>
+          </div>
+          <center>
+            <div class="connectForm">
+              <center>
+                <form onsubmit="return afterClick(this)">
+                  <label for="email">E-mail</label>
+                  <input type="text" id="email" placeholder="Enter Username" required><br><br>
+                  <label for="name">Name</label>
+                  <input type="text" id="name" placeholder="Enter your Name" required><br><br>
+                  <textarea name="query" id="query" cols="30" rows="10" placeholder="Hello! How do you do"
+                    required></textarea><br><br>
+                  <input type="submit" value="Submit">
+                </form>
+              </center>
+            </div>
+          </center>
+        </div>
+      </div>
+  </main>
+  <script src="./script.js"></script>
 </body>
+
 </html>
