@@ -1107,7 +1107,7 @@ label{
     .sidenav a {font-size: 18px;}
   }
 
-@media only screen and (max-width: 392px){
+@media only screen and (max-width: 450px){
     .navbar{
         display: none;
     }
