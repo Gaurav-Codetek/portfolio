@@ -1215,6 +1215,8 @@ label{
 
     .mastImg img{
         margin-top: 60px;
+        height: 300px;
+        width: 300px;
     }
 
     .content h1{
@@ -1249,7 +1251,7 @@ label{
     .connectForm{
         margin-left: 20px;
         margin-right: 20px;
-        width: 80%;
+        width: 60%;
     }
 }
 
