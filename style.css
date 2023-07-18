@@ -1133,6 +1133,10 @@ label{
     .technologies h1{
         font-size: 55px;
     }
+
+    .lang{
+        margin-bottom: 100px;
+    }
     
     .html, .c, .css, .js{
         width: 150px;
