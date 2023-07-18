@@ -1143,7 +1143,7 @@ label{
     }
 
     .project h1{
-        font-size: 55px;
+        font-size: 50px;
     }
 
     .project1Content h1{
@@ -1156,7 +1156,7 @@ label{
     }
 
     .experience h1{
-        font-size: 55px;
+        font-size: 50px;
     }
 
     .content p{
@@ -1167,6 +1167,14 @@ label{
         line-height: 25px;
         font-size: 15px;
         color: #343434;
+    }
+
+    .about h1{
+        font-size: 50px;
+    }
+
+    .connect h1{
+        font-size: 50px;
     }
 
     .sidenav {
