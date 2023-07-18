@@ -781,6 +781,34 @@ label{
     display: none;
 }
 
+/*------------------------------------------------------Footer-----------------------------*/
+
+footer{
+    background-color: #000;
+    text-align: center;
+    color: #FFF;
+    font-weight: 600;
+    margin-top: 80px;
+    padding: 30px;
+}
+
+footer b{
+    margin: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 15px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: #FFF;
+}
+
 /*-----------------------------------------------------MediaQuery-------------------------*/
 
 @media only screen and (max-width: 1133px){
