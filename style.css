@@ -1134,7 +1134,7 @@ label{
         height: 100%;
         width: 0;
         position: fixed;
-        z-index: 1;
+        z-index: 5;
         top: 0;
         left: 0;
         background-color: #111;
@@ -1173,25 +1173,48 @@ label{
     }
 
     .mobileMast b{
-        background: linear-gradient( to right, #5DE0E6, #004AAD);
+        background-color: #004AAD;
         color: #FFF;
         padding: 3px;
         border-radius: 3px;
     }
 
+    .mobileMast p{
+        color: #FFF;
+    }
+
+    .mobileMast{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 17px;
+    }
+
     .mobileNav{
         display: block;
+        display: flex;
+        padding: 10px;
+        background: linear-gradient(to right, #5DE0E6, #004AAD);
+        box-shadow: 0px 6px 10px 0px #818181;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 4;
+    }
+
+    .mobileMast{
+        width: 80%;
+        text-align: right;
     }
 
     .ham{
-        background-color: #FFFFFF;
-        box-shadow: 0px 0px 10px 0px #adadad;
-        position: fixed;
-        top: 5px;
-        left: 5px;
-        padding: 5px;
-        border-radius: 5px;
-        z-index: 4;
+        width: 10%;
+    }
+
+    .bar1, .bar2, .bar3{
+        width: 25px;
+        height: 3px;
+        background-color: #FFF;
+        margin: 3px;
+        border-radius: 3px;
     }
 
     .mastName p{
