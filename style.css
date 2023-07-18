@@ -1129,6 +1129,45 @@ label{
         display: flex;
         justify-content: center;
     }
+    .technologies h1{
+        font-size: 55px;
+    }
+    
+    .html, .c, .css, .js{
+        width: 150px;
+    }
+
+    .html img, .css img, .c img, .js img{
+        height: 100px;
+        width: 100px;
+    }
+
+    .project h1{
+        font-size: 55px;
+    }
+
+    .project1Content h1{
+        font-size: 25px;
+    }
+
+    .project1Content p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .experience h1{
+        font-size: 55px;
+    }
+
+    .content p{
+        line-height: 25px;
+    }
+
+    .aboutSkills p{
+        line-height: 25px;
+        font-size: 15px;
+        color: #343434;
+    }
 
     .sidenav {
         height: 100%;
@@ -1217,17 +1256,21 @@ label{
         border-radius: 3px;
     }
 
+    .mastName{
+        margin-top: 100px;
+    }
+
     .mastName p{
-        font-size: 30px;
+        font-size: 35px;
     }
 
     .mastName h1{
-        font-size: 44px;
-        line-height: 60px;
+        font-size: 54px;
+        line-height: 80px;
     }
 
     .mastName h3{
-        font-size: 30px;
+        font-size: 35px;
     }
 
     .mastName button{
@@ -1276,6 +1319,8 @@ label{
         margin-right: 20px;
         width: 60%;
     }
+
+    
 }
 
 
