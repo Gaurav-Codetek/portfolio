@@ -7,12 +7,9 @@ let PORT = process.env.port || 3020
 
 app.use(express.static(__dirname + '/public'));
 
-//View Engine Setup
-app.set("views", path.join(__dirname))
-app.set("view engine", "ejs")
 
 app.get("/", function (req, res){
-    res.render("index")
+    res.sendFile(__dirname + "/index.html")
 })
 
 // Body-parser middleware
