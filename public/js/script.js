@@ -30,5 +30,21 @@ function closeNav() {
         document.querySelector(".ham").style.display = "block";
 }
 
+const inputEmail = document.querySelector('#email')
+const inputName = document.querySelector('#name')
+const inputQuery = document.querySelector('#query')
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

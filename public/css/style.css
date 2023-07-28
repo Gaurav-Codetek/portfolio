@@ -14,7 +14,7 @@ html{
     display: none;
 }
 .bg{
-    background: url(./Images/backgroundHome.png);
+    background: url(./backgroundHome.png);
     background-size: cover;
 }
 
@@ -737,7 +737,7 @@ hr{
     margin-right: 10px;
 }
 
-.connectForm input[type="text"], textarea{
+.connectForm input[type="text"],input[type=email] , textarea{
     background: transparent;
     width: 70%;
     border: 1px solid #343434;
@@ -752,7 +752,7 @@ input::placeholder, textarea::placeholder{
     color: #FFF;
 }
 
-input[type=text]:focus, textarea:focus{
+input[type=text]:focus,input[type=email]:focus , textarea:focus{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: transparent;
 }
